@@ -1,0 +1,38 @@
+body {
+  background: url("https://source.unsplash.com/1600x900/?Travel")
+  no-repeat center center fixed;
+  background-size:cover;
+  color: rgba(0,0,0, .75);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quoteContainer {
+  background: rgba(255,255,255,.75);
+  padding: 25px;
+  max-width: 80%;
+  border-radius: 25px;
+  font-size: 1rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 0;
+}
+
+li {
+  margin: 5px 10px;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
